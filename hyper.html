@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <video src="img/car.mp4" id="videoSlayder" autoplay controls loop>
+        <!-- <source src="img/tabiat.mp4" type=""> -->
+      </video>
+      <ul class="navigation">
+        <li onclick="wideoUrl('img/car.mp4')">
+          <img src="img/car.mp4" alt="" />
+        </li>
+        <li onclick="wideoUrl('img/ocean.mp4')">
+          <img src="img/ocean.png" alt="" />
+        </li>
+        <li onclick="wideoUrl('img/manzara.mp4')">
+          <img src="img/big_buildng.png" alt="" />
+        </li>
+        <li onclick="wideoUrl('img/suv_utida.mp4')">
+          <img src="img/suv-usti.png" alt="" />
+        </li>
+
+        <li onclick="wideoUrl('img/my_home.mp4')">
+          <img src="img/home.img" alt="" />
+        </li>
+        <li onclick="wideoUrl('img/dream.mp4')">
+          <img src="img/dream.png" alt="" />
+        </li>
+        <li onclick="wideoUrl('img/tabiat.mp4')">
+          <img src="img/yashilik.png" alt="" />
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    function wideoUrl(hmmmmmmmmmmm) {
+      document.getElementById("videoSlayder").src = hmmmmmmmmmmm;
+    }
+  </script>
+</html>
